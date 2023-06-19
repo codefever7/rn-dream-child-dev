@@ -1,0 +1,11 @@
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">amazonaws.com</domain>
+        <domain includeSubdomains="true">bit.ly</domain>
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <domain includeSubdomains="true">3.111.125.97</domain>
+        <domain includeSubdomains="true">192.168.29.130</domain>
+        <domain includeSubdomains="true">192.168.29.147</domain>
+    </domain-config>
+</network-security-config>

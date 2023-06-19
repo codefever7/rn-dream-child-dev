@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash-bg" translatesAutoresizingMaskIntoConstraints="NO" id="eG4-9s-cil">
+                                <rect key="frame" x="-26.5" y="-129.5" width="428" height="926"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Made in India" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="xkc-DT-ny2">
+                                <rect key="frame" x="0.0" y="601" width="375" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dc-logo" translatesAutoresizingMaskIntoConstraints="NO" id="Xzx-vH-Xqj">
+                                <rect key="frame" x="75" y="273.5" width="225" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Xzx-vH-Xqj" secondAttribute="height" multiplier="15:8" id="3QO-aB-j7P"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eG4-9s-cil" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="LsY-4o-44I"/>
+                            <constraint firstItem="eG4-9s-cil" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="OB4-al-0wL"/>
+                            <constraint firstItem="xkc-DT-ny2" firstAttribute="centerX" secondItem="Bcu-3y-fUS" secondAttribute="centerX" id="OgG-1C-lzS"/>
+                            <constraint firstItem="Xzx-vH-Xqj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dWR-UY-mx3"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="xkc-DT-ny2" secondAttribute="bottom" constant="48" id="jEI-gc-Bvq"/>
+                            <constraint firstItem="xkc-DT-ny2" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="pzF-rm-SjE"/>
+                            <constraint firstItem="Xzx-vH-Xqj" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="zSa-oJ-x4v"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dc-logo" width="150" height="120"/>
+        <image name="splash-bg" width="428" height="926"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

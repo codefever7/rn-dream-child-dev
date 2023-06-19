@@ -1,0 +1,765 @@
+import Typography from '@app/styles/Typography';
+import { scale, scaleVertical } from '@app/utils/scale';
+import { StyleSheet } from 'react-native';
+import { colors, fontSizes, fontWeights } from '../../styles';
+
+import { indent, borderWidth, halfindent, lessIndent, doubleIndent } from '../../styles/dimensions';
+
+export default StyleSheet.create({
+  mainbg: {
+    backgroundColor: colors.white,
+    flex: 1,
+  },
+  mainroot: {
+    paddingHorizontal: indent,
+    paddingVertical: indent + halfindent,
+    flex: 1,
+  },
+  mainrootask: {
+    paddingHorizontal: indent,
+    paddingVertical: indent + halfindent,
+    flex: 1,
+    paddingBottom: doubleIndent * 3,
+  },
+  updateroot: {
+    paddingHorizontal: indent,
+    paddingTop: indent + halfindent,
+    flex: 1,
+  },
+  headerRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  headerText: {
+    color: colors.black,
+    fontWeight: fontWeights.extraBold,
+  },
+  padview: {
+    padding: indent,
+    justifyContent: 'center',
+    flex: 1,
+  },
+  headerIcons: {
+    marginRight: lessIndent,
+  },
+  btndefault: {
+    backgroundColor: colors.transparent,
+    alignItems: 'center',
+  },
+  btnhead: {
+    paddingVertical: 2,
+    paddingHorizontal: halfindent,
+    borderRadius: 14,
+  },
+  btnStatus: {
+    paddingVertical: 2,
+    paddingHorizontal: indent,
+    borderRadius: 14,
+    backgroundColor: colors.bglightgreen,
+  },
+  btnheadtext: {
+    ...Typography.capsOne,
+    fontWeight: fontWeights.semiBold,
+  },
+  btnStatustext: {
+    ...Typography.caps,
+    color: colors.textgreen,
+  },
+  profile: {
+    width: scale(60),
+    height: scaleVertical(60),
+  },
+  avtar: {
+    position: 'relative',
+    width: scale(60),
+  },
+  ProfileEdit: {
+    width: 20,
+    height: 20,
+    borderWidth: 1,
+    borderRadius: 50,
+    backgroundColor: colors.primary,
+    borderColor: colors.white,
+    alignItems: 'center',
+    justifyContent: 'center',
+    position: 'absolute',
+    bottom: 0,
+    right: 0,
+  },
+  username: {
+    color: colors.black,
+    fontWeight: fontWeights.extraBold,
+    marginRight: halfindent + 2,
+  },
+  rowview: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: lessIndent,
+  },
+  gamiltext: {
+    color: colors.dimGray,
+    marginTop: halfindent - 3,
+  },
+  default: {
+    color: colors.black,
+    fontWeight: fontWeights.semiBold,
+    marginBottom: halfindent,
+  },
+  allList: {
+    marginTop: doubleIndent + halfindent,
+  },
+  menulist: {
+    borderWidth: borderWidth,
+    borderColor: colors.borderColor,
+    padding: halfindent + 2,
+    marginBottom: halfindent,
+    borderRadius: 6,
+  },
+  logOutBtn: {
+    color: colors.primary,
+    fontSize: fontSizes.bodyHead,
+    fontWeight: fontWeights.extraBold,
+    fontFamily: 'Roboto-Regular',
+  },
+  monurow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  iconBg: {
+    width: 30,
+    height: 30,
+    backgroundColor: colors.lowRed,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  iconBg2: {
+    width: 30,
+    height: 30,
+    backgroundColor: colors.orange,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  iconBg3: {
+    width: 30,
+    height: 30,
+    backgroundColor: colors.lightyellow,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  iconBg4: {
+    width: 30,
+    height: 30,
+    backgroundColor: colors.lowgreen,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  iconBg5: {
+    width: 30,
+    height: 30,
+    backgroundColor: colors.lowcruse,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  iconBg6: {
+    width: 30,
+    height: 30,
+    backgroundColor: colors.lowsky,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  iconBg7: {
+    width: 30,
+    height: 30,
+    backgroundColor: colors.lowblue,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  iconBg8: {
+    width: 30,
+    height: 30,
+    backgroundColor: colors.sky,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  iconBg9: {
+    width: 30,
+    height: 30,
+    backgroundColor: colors.lowpurple,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  iconBgTermsAndCondition: {
+    width: 30,
+    height: 30,
+    backgroundColor: colors.lowsky,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  iconBg10: {
+    width: 30,
+    height: 30,
+    backgroundColor: colors.lowprimary,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  iconBg01: {
+    width: 30,
+    height: 30,
+    backgroundColor: colors.reddark,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  iconBg02: {
+    width: 30,
+    height: 30,
+    backgroundColor: colors.lowgravy,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  iconBg03: {
+    width: 30,
+    height: 30,
+    backgroundColor: colors.orange,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  listtext: {
+    color: colors.dimGray,
+    marginLeft: halfindent + 2,
+  },
+  //about
+  aboutRow: {
+    padding: indent,
+    borderBottomWidth: borderWidth,
+    borderColor: colors.borderColor,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  contactRow: {
+    padding: indent,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  aboutbg: {
+    width: 48,
+    height: 48,
+    backgroundColor: colors.lowblue,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+
+  aboutbg0: {
+    width: 48,
+    height: 48,
+    backgroundColor: colors.bgred,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  aboutbg1: {
+    width: 48,
+    height: 48,
+    backgroundColor: colors.yellow,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  aboutbg2: {
+    width: 48,
+    height: 48,
+    backgroundColor: colors.purpule,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  aboutbg3: {
+    width: 48,
+    height: 48,
+    backgroundColor: colors.green,
+    borderRadius: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  introView: {
+    marginLeft: indent,
+    flexDirection: 'column',
+    flex: 1,
+  },
+  introView2: {
+    marginLeft: indent + 4,
+    flexDirection: 'column',
+    flex: 1,
+    marginTop: halfindent - 1,
+  },
+  graytext: {
+    color: colors.dimGray,
+  },
+  blackabout: {
+    color: colors.black,
+    fontWeight: fontWeights.bold,
+  },
+  lastrow: {
+    flexDirection: 'row',
+    paddingHorizontal: indent,
+    paddingTop: indent,
+    alignItems: 'flex-start',
+    justifyContent: 'flex-start',
+  },
+  socialSection: {
+    marginTop: doubleIndent + halfindent,
+    zIndex: 1,
+    position: 'relative',
+  },
+  conectext: {
+    fontWeight: fontWeights.extraBold,
+    color: colors.black,
+    textAlign: 'center',
+  },
+  socialview: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginRight: -indent,
+    marginTop: lessIndent,
+  },
+  circle: {
+    width: 50,
+    height: 50,
+    backgroundColor: colors.white,
+    borderRadius: 100,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginRight: indent,
+    shadowColor: colors.black,
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.22,
+    shadowRadius: 2.22,
+
+    elevation: 3,
+  },
+  quotesview: {
+    marginTop: doubleIndent - 2,
+    alignItems: 'center',
+  },
+  imgswami: {
+    width: 44,
+    height: 44,
+  },
+  quottext: {
+    color: colors.black,
+    fontWeight: fontWeights.extraBold,
+    textAlign: 'center',
+  },
+  name: {
+    color: colors.dimGray,
+    textAlign: 'center',
+    marginTop: halfindent - 3,
+  },
+  bottomtext: {
+    marginTop: halfindent + 2,
+    marginBottom: indent + 4,
+  },
+  purimg: {
+    position: 'absolute',
+    right: 0,
+    left: 0,
+    bottom: 0,
+  },
+  linetext: {
+    color: colors.dimGray,
+    textDecorationLine: 'underline',
+  },
+  contactbottom: {
+    color: colors.dimGray,
+    marginTop: 'auto',
+    textAlign: 'center',
+    marginBottom: indent,
+  },
+  //modal
+  selectmodal: {
+    width: scale(290),
+    height: 'auto',
+    backgroundColor: colors.white,
+    borderRadius: 4,
+    paddingBottom: indent,
+  },
+  modalroot: {
+    paddingHorizontal: indent,
+  },
+  closeicon: {
+    position: 'absolute',
+    right: 10,
+    top: 10,
+  },
+  imgrate: {
+    alignSelf: 'center',
+  },
+  rateusimg: {
+    width: scale(180),
+    height: scaleVertical(110),
+    marginTop: doubleIndent,
+    marginBottom: indent + halfindent,
+  },
+  modalHead: {
+    color: colors.black,
+    fontWeight: fontWeights.extraBold,
+    textAlign: 'center',
+  },
+  capsmodal: {
+    color: colors.dimGray,
+    textAlign: 'center',
+    marginTop: halfindent + 2,
+  },
+  modalbtn: {
+    marginTop: doubleIndent + 3,
+    borderRadius: 8,
+    paddingVertical: lessIndent - 1,
+    marginBottom: indent,
+  },
+  modalbtnSecond: {
+    borderRadius: 8,
+    paddingVertical: lessIndent - 1,
+    backgroundColor: colors.white,
+    borderWidth: borderWidth,
+    borderColor: colors.borderColor,
+  },
+  modltextbtn: {
+    ...Typography.bodyHead,
+  },
+  modltextbtnSec: {
+    ...Typography.bodyHead,
+    color: colors.dimGray,
+  },
+  langimg: {
+    width: 130,
+    height: 130,
+    alignSelf: 'center',
+  },
+  textlanview: {
+    marginTop: 50,
+    marginBottom: indent + halfindent,
+  },
+  langtitle: {
+    fontWeight: fontWeights.extraBold,
+    color: colors.black,
+    textAlign: 'center',
+  },
+  btnview: {
+    marginTop: indent + 4,
+  },
+  btn: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: indent - 1,
+    borderRadius: halfindent,
+    backgroundColor: colors.primary,
+  },
+  btntext: {
+    color: colors.white,
+    fontWeight: fontWeights.extraBold,
+    marginRight: halfindent - 2,
+  },
+  btnicon: {
+    marginTop: 1,
+  },
+  pickerstyle: {
+    borderWidth: 1.2,
+    borderColor: colors.borderColor,
+    borderRadius: 6,
+  },
+  imgview: {
+    alignSelf: 'center',
+    marginBottom: indent + halfindent,
+  },
+  imgcounselling: {
+    width: 130,
+    height: 130,
+  },
+  counselltext: {
+    textAlign: 'center',
+    color: colors.dimGray,
+    marginTop: indent + halfindent,
+  },
+  inputview: {
+    flex: 1,
+    marginBottom: indent,
+  },
+  inputstyle: {
+    backgroundColor: colors.white,
+    ...Typography.bodyHead,
+    height: scaleVertical(40),
+  },
+  inputtextarea: {
+    backgroundColor: colors.white,
+  },
+  inputlist: {
+    marginTop: doubleIndent + halfindent,
+  },
+  founderSection: {
+    width: '100%',
+    height: scaleVertical(133),
+  },
+  imgview2: {
+    backgroundColor: colors.bglightcream,
+    borderRadius: 12,
+    position: 'relative',
+    height: '100%',
+  },
+  fondimg: {
+    position: 'absolute',
+    width: '100%',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+  },
+  textcontain: {
+    width: scale(175),
+    marginLeft: indent,
+  },
+
+  blacktext: {
+    color: colors.black,
+    fontWeight: fontWeights.extraBold,
+    textAlign: 'left',
+  },
+  duratintext: {
+    color: colors.dimGray,
+    fontWeight: fontWeights.medium,
+  },
+  gujtext: {
+    color: colors.dimGray,
+  },
+  textlist: {
+    marginTop: indent + 4,
+  },
+  policy: {
+    marginTop: lessIndent,
+    fontWeight: fontWeights.extraBold,
+    color: colors.black,
+  },
+  captionread: {
+    color: colors.dimGray,
+    marginTop: indent + halfindent,
+  },
+  headtitle: {
+    marginTop: indent + halfindent,
+    color: colors.black,
+    fontWeight: fontWeights.extraBold,
+  },
+  infocaps: {
+    marginTop: lessIndent,
+    color: colors.dimGray,
+  },
+  boxSection: {
+    padding: indent,
+    backgroundColor: colors.bggrey,
+    borderWidth: borderWidth,
+    borderColor: colors.borderfaq,
+    borderRadius: 4,
+    marginBottom: lessIndent,
+  },
+  faqRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  faqhead: {
+    color: colors.black,
+    fontWeight: fontWeights.semiBold,
+    width: '95%',
+  },
+  boxWhiteSec: {
+    backgroundColor: colors.white,
+    borderRadius: 4,
+    shadowColor: colors.black,
+    marginBottom: lessIndent,
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.18,
+    shadowRadius: 1.0,
+
+    elevation: 1,
+  },
+  bgprimary: {
+    backgroundColor: colors.primary,
+    padding: indent,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    borderTopLeftRadius: 3,
+    borderTopRightRadius: 3,
+  },
+  faqheadWhite: {
+    color: colors.white,
+    fontWeight: fontWeights.semiBold,
+    width: '95%',
+  },
+  faqcaption: {
+    color: colors.dimGray,
+    fontWeight: fontWeights.medium,
+  },
+  faqcaptionLast: {
+    color: colors.dimGray,
+    fontWeight: fontWeights.medium,
+    marginTop: indent + 4,
+  },
+  captinBox: {
+    padding: lessIndent,
+  },
+  Emailinputstyle: {
+    backgroundColor: colors.white,
+    height: scaleVertical(45),
+    ...Typography.bodyHead,
+    position: 'relative',
+  },
+  emailRight: {
+    position: 'absolute',
+    right: 10,
+    top: 25,
+  },
+  inputprofile: {
+    marginBottom: lessIndent,
+  },
+  captiontext: {
+    fontWeight: fontWeights.medium,
+    color: colors.dimGray,
+    marginBottom: lessIndent,
+    fontFamily: 'Roboto-Regular',
+  },
+  rowlist: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    flex: 1,
+    paddingLeft: indent,
+  },
+  policyimg: {
+    width: 120,
+    height: 120,
+  },
+  termimg: {
+    width: 80,
+    height: 80,
+  },
+  statusview: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingTop: lessIndent - 1,
+    paddingBottom: indent,
+  },
+  notfocus: {
+    borderWidth: 2,
+    borderColor: colors.borderColor,
+    borderRadius: 6,
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: halfindent + 2,
+    width: '100%',
+    minWidth: 90,
+    maxWidth: 90,
+    minHeight: 90,
+    marginRight: indent,
+  },
+  focusstatus: {
+    borderWidth: 2,
+    borderColor: colors.primary,
+    borderRadius: 6,
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: halfindent + 2,
+    width: '100%',
+    minWidth: 90,
+    maxWidth: 90,
+    minHeight: 90,
+    marginRight: indent,
+  },
+  statustext: {
+    fontWeight: fontWeights.medium,
+    color: colors.lightGrey,
+    textAlign: 'center',
+    marginTop: halfindent,
+  },
+  labelinput: {
+    color: colors.dimGray,
+    fontWeight: fontWeights.semiBold,
+  },
+  socialimg: {
+    width: scale(20),
+    height: scaleVertical(20),
+  },
+  btnbttomview: {
+    paddingHorizontal: indent,
+    backgroundColor: colors.white,
+    paddingTop: halfindent,
+  },
+  tagsStyles: {
+    p: {
+      margin: 0,
+    },
+  },
+  userstatus: {
+    marginTop: 5,
+    flexDirection: 'row',
+  },
+  dateinputview: {
+    marginVertical: halfindent - 4,
+  },
+  dividerview: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: halfindent,
+    marginBottom: lessIndent,
+  },
+  leftDivider: {
+    flexGrow: 1,
+    height: 1,
+    backgroundColor: colors.divider,
+    marginRight: lessIndent,
+  },
+  rightDivider: {
+    flexGrow: 1,
+    height: 1,
+    backgroundColor: colors.divider,
+    marginLeft: lessIndent,
+  },
+  lmptext: {
+    color: colors.dimGray,
+    marginTop: halfindent,
+    lineHeight: 18,
+  },
+  ortext: {
+    color: colors.grey,
+    fontWeight: fontWeights.semiBold,
+  },
+  extraMargin: {
+    marginVertical: 3,
+  },
+  versinText: {
+    color: colors.dimGray,
+    textAlign: 'center',
+    marginTop: doubleIndent,
+  },
+});
